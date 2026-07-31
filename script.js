@@ -84,27 +84,7 @@ heart.addEventListener("click",()=>{
     const music =
     document.getElementById("bgMusic");
 
-    music.volume = 0;
-
-music.play();
-
-let volume = 0;
-
-const fade = setInterval(() => {
-
-    volume += 0.02;
-
-    if (volume >= 1) {
-
-        volume = 1;
-
-        clearInterval(fade);
-
-    }
-
-    music.volume = volume;
-
-}, 120);.catch(()=>{
+    music.play().catch(()=>{
 
         console.log("Music blocked until user interaction.");
 
@@ -144,7 +124,7 @@ const fade = setInterval(() => {
         TYPEWRITER MESSAGE
 ========================================== */
 
-const message =`Dear Kurkure❤️,
+const message =`Happy Girlfriend's Day My Love! ❤️
 Every heartbeat of mine whispers your name.
 Thank you for coming into my life and making every ordinary day feel magical.
 No matter how many sunsets we watch together,
@@ -153,9 +133,9 @@ You're my happiness,
 My peace,
 My safest place,
 And my forever favorite person.
-I don't know what tomorrow holds, but I know I want every tomorrow with you.
-I love you more than words can ever express.
-Happy Girlfriend's Day, My Love. ❤️`;
+I don't know what tomorrow holds,
+but I know I want every tomorrow with you.
+I love you more than words can ever express.`;
 
 let index = 0;
 
@@ -172,26 +152,18 @@ function typeMessage(){
 
     function type(){
 
-      if(index < message.length){
+        if(index < message.length){
 
-    element.innerHTML += message.charAt(index);
+            element.innerHTML +=
+            message.charAt(index);
 
-    index++;
+            index++;
 
-    setTimeout(type,40);
+            setTimeout(type,40);
 
-}else{
+        }
 
-    const photo=document.getElementById("endPhoto");
-
-    photo.classList.add("show");
-
-    photo.scrollIntoView({
-        behavior:"smooth",
-        block:"center"
-    });
-
-}
+    }
 
     type();
 
@@ -350,14 +322,6 @@ document.addEventListener("mousemove",(e)=>{
     glow.style.top=e.clientY-10+"px";
 
 });
-
-function createPhotoHeart(){
-    ...
-}
-
-setInterval(createPhotoHeart,350);
-
-
 
 
 /* ==========================================
