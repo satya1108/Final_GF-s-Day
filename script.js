@@ -145,7 +145,6 @@ const fade = setInterval(() => {
 ========================================== */
 
 const message =`Dear Kurkure❤️,
-
 Every heartbeat of mine whispers your name.
 Thank you for coming into my life and making every ordinary day feel magical.
 No matter how many sunsets we watch together,
@@ -173,18 +172,26 @@ function typeMessage(){
 
     function type(){
 
-        if(index < message.length){
+      if(index < message.length){
 
-            element.innerHTML +=
-            message.charAt(index);
+    element.innerHTML += message.charAt(index);
 
-            index++;
+    index++;
 
-            setTimeout(type,40);
+    setTimeout(type,40);
 
-        }
+}else{
 
-    }
+    const photo=document.getElementById("endPhoto");
+
+    photo.classList.add("show");
+
+    photo.scrollIntoView({
+        behavior:"smooth",
+        block:"center"
+    });
+
+}
 
     type();
 
@@ -343,6 +350,14 @@ document.addEventListener("mousemove",(e)=>{
     glow.style.top=e.clientY-10+"px";
 
 });
+
+function createPhotoHeart(){
+    ...
+}
+
+setInterval(createPhotoHeart,350);
+
+
 
 
 /* ==========================================
