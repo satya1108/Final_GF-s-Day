@@ -30,7 +30,7 @@ window.onload = () => {
 ========================================== */
 
 const title =
-"Happy Girlfriend's Day ❤️";
+"Happy Girlfriend's Day Jaanu❤️";
 
 let titleIndex = 0;
 
@@ -124,7 +124,7 @@ heart.addEventListener("click",()=>{
         TYPEWRITER MESSAGE
 ========================================== */
 
-const message =`Dear Gulu❤️,
+const message =`Dear Gulu ❤️,
 Every heartbeat of mine whispers your name.
 Thank you for coming into my life and making every ordinary day feel magical.
 No matter how many sunsets we watch together,
