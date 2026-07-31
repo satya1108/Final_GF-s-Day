@@ -124,27 +124,18 @@ heart.addEventListener("click",()=>{
         TYPEWRITER MESSAGE
 ========================================== */
 
-const message =
-
-`Happy Girlfriend's Day My Love! ❤️
+const message =`Dear Kurkure❤️,
 
 Every heartbeat of mine whispers your name.
-
 Thank you for coming into my life and making every ordinary day feel magical.
-
 No matter how many sunsets we watch together,
 I'll never get tired of looking at you.
-
 You're my happiness,
-my peace,
-my safest place,
-and my forever favorite person.
-
-I don't know what tomorrow holds,
-but I know I want every tomorrow with you.
-
+My peace,
+My safest place,
+And my forever favorite person.
+I don't know what tomorrow holds, but I know I want every tomorrow with you.
 I love you more than words can ever express.
-
 Happy Girlfriend's Day, My Love. ❤️`;
 
 let index = 0;
