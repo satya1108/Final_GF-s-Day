@@ -84,7 +84,27 @@ heart.addEventListener("click",()=>{
     const music =
     document.getElementById("bgMusic");
 
-    music.play().catch(()=>{
+    music.volume = 0;
+
+music.play();
+
+let volume = 0;
+
+const fade = setInterval(() => {
+
+    volume += 0.02;
+
+    if (volume >= 1) {
+
+        volume = 1;
+
+        clearInterval(fade);
+
+    }
+
+    music.volume = volume;
+
+}, 120);.catch(()=>{
 
         console.log("Music blocked until user interaction.");
 
