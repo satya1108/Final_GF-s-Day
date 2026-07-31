@@ -124,7 +124,7 @@ heart.addEventListener("click",()=>{
         TYPEWRITER MESSAGE
 ========================================== */
 
-const message =`Happy Girlfriend's Day My Love! ❤️
+const message =`Dear Gulu❤️,
 Every heartbeat of mine whispers your name.
 Thank you for coming into my life and making every ordinary day feel magical.
 No matter how many sunsets we watch together,
