@@ -14,7 +14,7 @@ window.onload = () => {
 
             document.getElementById("loader").style.display = "none";
 
-            document.getElementById("main").style.display = "block";
+            document.getElementById("mainContent").style.display = "block";
 
             typeTitle();
 
@@ -36,7 +36,7 @@ let titleIndex = 0;
 
 function typeTitle(){
 
-    const element = document.getElementById("title");
+    const element = document.getElementById("mainTitle");
 
     if(titleIndex < title.length){
 
@@ -60,7 +60,7 @@ document.getElementById("startBtn");
 
 startButton.addEventListener("click",()=>{
 
-    document.getElementById("heartScene")
+    document.getElementById("heartSection")
     .scrollIntoView({
 
         behavior:"smooth"
@@ -75,7 +75,7 @@ startButton.addEventListener("click",()=>{
 ========================================== */
 
 const heart =
-document.getElementById("mainHeart");
+document.getElementById("heartContainer");
 
 heart.addEventListener("click",()=>{
 
@@ -104,7 +104,7 @@ heart.addEventListener("click",()=>{
 
     setTimeout(()=>{
 
-        document.getElementById("letterSection")
+        document.getElementById("messageSection")
         .scrollIntoView({
 
             behavior:"smooth"
