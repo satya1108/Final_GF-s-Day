@@ -135,7 +135,9 @@ My safest place,
 And my forever favorite person.
 I don't know what tomorrow holds,
 but I know I want every tomorrow with you.
-I love you more than words can ever express.`;
+I love you more than words can ever express.
+And I know I supposed to do this earlier
+But Jaanu we know "Jo Hota Haii Acche Ke Liye Hota Hai ❤️"`;
 
 let index = 0;
 
