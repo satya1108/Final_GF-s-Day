@@ -124,7 +124,7 @@ heart.addEventListener("click",()=>{
         TYPEWRITER MESSAGE
 ========================================== */
 
-const message =`Dear Gulu ❤️,
+const message =`Dear Kurkure ❤️,
 Every heartbeat of mine whispers your name.
 Thank you for coming into my life and making every ordinary day feel magical.
 No matter how many sunsets we watch together,
